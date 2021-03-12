@@ -1,0 +1,64 @@
+.about-self p {
+    text-align: justify;
+}
+
+.box {
+    display: flex;
+    place-content: center center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    min-width: 800px;
+    min-height: 600px;
+    max-height: 100%;
+    background: rgb(241, 241, 241);
+}
+.photo {
+    min-width: 30%;
+    
+}
+
+.main * {
+    background-color: white;
+    min-width: 70%;
+    max-height: 100%;
+}    
+
+.activities {
+    background: rgb(241, 241, 241);
+    height: 45%;
+    
+}
+
+.activities div {
+    min-width: calc(90% / 3);
+    max-width: 100%;
+    
+    
+}
+
+.activities div>p:first-child {
+    color: rgb(10, 189, 10);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.activities div>p+p {
+    color: rgb(190, 190, 190);
+    
+}
+
+.about-self {
+    max-height: 45%;
+    min-height: 300px;
+}
+
+.btn {
+    background: rgb(10, 189, 10);
+    color: white;
+    padding: 0.375rem 2.125rem;
+}
+
+
